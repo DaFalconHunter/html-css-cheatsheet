@@ -1,0 +1,158 @@
+/* Fonts */
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v27/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/jetbrainsmono/v6/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTOlOV.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW4.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+/* Universal Styles */
+* {
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  background-color: #e2e2f8;
+  color: #776666;
+}
+
+body {
+  margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+  padding: 15px;
+  overflow: hidden;
+  background-color: #88ccf1;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav a {
+  background-color: #88ccf1;
+  padding: 50px;
+  font-size: 18px;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+a:hover {
+  background-color: #858aa0;
+  color: #fff;
+}
+
+/* Header */
+header {
+  margin-top: 90px;
+  text-align: center;
+}
+
+header h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.cheatsheet-content {
+  text-align: center;
+}
+
+/* Code */
+code {
+  font-family: "JetBrains Mono", "Roboto Mono", Consolas, monospace;
+  background-color: #e5e1f1;
+  border-radius: 5px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  max-width: 80em;
+  height: 240px;
+  margin: 0 auto;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+  overflow-x: auto;
+  margin-bottom: 40px;
+}
+
+thead th {
+  height: 50%;
+  background: #88ccf1;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+td {
+  text-align: center;
+  background-color: #f1eff7;
+  height: 100%;
+}
+
+/* MDN Web Docs Links Styling */
+.mdn-link {
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.mdn-link:hover {
+  background-color: #858aa0;
+  color: #fff;
+}
+
+.mdn-link a {
+  background-color: #f1eff7;
+  display: table;
+  position: static;
+  height: 100%;
+  width: 100%;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.mdn-link a:hover {
+  background-color: #858aa0;
+  color: #fff;
+}
+
+span {
+  background-color: #f1eff7;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+span:hover {
+  background-color: #858aa0;
+  color: #fff;
+}
