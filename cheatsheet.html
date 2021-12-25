@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="cheatsheet_styles.css"
+    />
+
+    <title>HTML & CSS Cheatsheet</title>
+  </head>
+  <body>
+    <!-- Navigation --> 
+    <nav>
+      <a href="https://github.com/DaFalconHunter/codecademy-html-cheat-sheet" target="_blank">GitHub Repo</a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs HTML</a>
+      <a href="https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet" target="_blank">Codecademy HTML Cheatsheet</a>
+      <a href="https://www.codecademy.com/resources/docs/html" target="_blank">Codecademy HTML Documentation</a>
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <h1>Welcome to the HTML Cheatsheet!</h1>
+      <p>This website is for reviewing HTML concepts</p>
+    </header>
+
+    <!-- HTML Cheatsheet Section -->
+    <section class="cheatsheet-content">
+      <h2>The HTML Cheatsheet</h2>
+      <h3>HTML Elements:</h3>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Tag</th>
+            <th scope="col">Description</th>
+            <th scope="col">MDN Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <code>&lt;(example tag)&gt;&lt;/(example tag)&gt;</code>
+            </td>
+            <td>
+              Most HTML elements have an opening and closing tag as shown on the
+              left. Note: the following elements do have a closing tag except
+              for any that will be pointed out.
+            </td>
+            <td class="mdn-link">
+              < href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank"><span>HTML Basics</span></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;body&gt;</code>
+            </td>
+            <td>
+              The <code>&lt;body&gt;</code> tag encloses all the HTML code that
+              is rendered on a website. You can only have one per HTML document.
+            </td>
+            <td class="mdn-link">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#sectioning_root" target="_blank"><span>The Body Tag</span></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>
+                &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;,
+                &lt;h6&gt;
+              </code>
+            </td>
+            <td>
+              In HTML these are different levels of heading ordered from the
+              highest (<code>&lt;h1&gt;</code>) to the lowest
+              (<code>&lt;h6&gt;</code>).
+            </td>
+            <td class="mdn-link">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank"><span>Heading Elements</span></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;div&gt;</code>
+            </td>
+            <td>
+              The <code>&lt;div&gt;</code> tag is used as a container for
+              sections of HTML content. Divs can contain anything that can be
+              encased in the <code>&lt;body&gt;</code> element, which is known
+              as flow content.
+            </td>
+            <td class="mdn-link">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div" target="_blank"><span>The Content Division Element</span></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>id=""</code>
+            </td>
+            <td>
+              The <code>id=""</code> attribute uniquely identifies elements in
+              your HTML code and helps you to style specific elements of it with
+              CSS and JavaScript. ID attributes should only contain letters
+              (<code>a-Z</code>), numbers (<code>0-9</code>), hyphens
+              (<code>-</code>), underscores (<code>_</code>) and periods
+              (<code>.</code>). This tag is placed inside of the opening tag of
+              an HTML element, e.g. <code>&lt;h1 id="title"&gt;</code>.
+            </td>
+            <td class="mdn-link">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id" target="_blank"><span>The ID Attribute</span></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;span&gt;</code>
+            </td>
+            <td>
+              The <code>&lt;span&gt;</code> tag is used as an inline container
+              for text and can be used to style elements within paragraphs (e.g.
+              links). It is used generically in HTML to separate pieces of text
+              from paragraphs and should only be used if no other semantic
+              element is available.
+            </td>
+            <td class="mdn-link">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span" target="_blank"><span>The Span Element</span></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;p&gt;</code>
+            </td>
+            <td>
+              The <code>&lt;p&gt;</code> element is used to display paragraphs
+              in a website as a block of text.
+            </td>
+            <td class="mdn-link">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="_blank"><span>The Paragraph Element</span></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;em&gt;</code>
+            </td>
+            <td>
+              The <code>&lt;em&gt;</code> tag emphasises the text between its
+              opening and closing tags and browsers will generally render it as
+              italic.
+            </td>
+            <td class="mdn-link">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em" target="_blank"><span>The Emphasis Element</span></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;strong&gt;</code>
+            </td>
+            <td>
+              The <code>&lt;strong&gt;</code> tag highlights important
+              information to a user and browsers will render it as bold by
+              default.
+            </td>
+            <td class="mdn-link">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong" target="_blank"><span>The Strong Importance Element</span></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;br&gt;</code>
+            </td>
+            <td>
+              Line breaks can be created with this <code>&lt;br&gt;</code> tag.
+              It must not have a closing tag.
+            </td>
+            <td class="mdn-link">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br" target="_blank"><span>The Line Break Element</span></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;li&gt;</code>
+            </td>
+            <td>
+              The <code>&lt;li&gt;</code> element displays elements in a list
+              inside unordered lists (<code>&lt;ul&gt;</code>) and ordered lists
+              (<code>&lt;ol&gt;</code>).
+            </td>
+            <td class="mdn-link">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li" target="_blank"><span>The List Item Element</span></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;ul&gt;</code>
+            </td>
+            <td>
+              The <code>&lt;ul&gt;</code> element displays lists in no
+              particular order, as bullet points.
+            </td>
+            <td class="mdn-link">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank"><span>The Unordered List Element</span></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;ol&gt;</code>
+            </td>
+            <td>
+              The <code>&lt;ol&gt;</code> element is used to display lists in
+              order with numbers.
+            </td>
+            <td class="mdn-link">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol" target="_blank"><span>The Ordered List Element</span></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;img src=""&gt;</code>
+            </td>
+            <td>
+              You can add images with the <code>&lt;img&gt;</code> tag, which is
+              self-closing. It has a source attribute to specify where the image
+              is located, whether that it is a website or a relative file path.
+              It goes after the letters <code>img</code> in the opening tag like
+              so:
+              <code>&lt;img src="https://example.com/file/image.jpg&gt;</code>
+            </td>
+            <td class="mdn-link">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img" target="_blank"><span>The Image Embed Element</span></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;img src="" alt=""&gt;</code>
+            </td>
+            <td>
+              Image alts allow you to display alternative text when an image
+              fails to load on a website. The text will also be read aloud if a
+              screen reader is used.
+            </td>
+            <td class="mdn-link">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attributes" target="_blank"><span>The Alt Image Attribute</span></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;video src="" controls&gt;</code>
+            </td>
+            <td>
+              HTML also allows you to add videos to your webpages with the video
+              element (which isn't self-closing). You can add the link to the
+              video inside of the source attribute and the controls attribute
+              adds video controls to it. Any text within the opening and closing
+              tags of the video element will be rendered on the website if the
+              video is unable to load.
+            </td>
+            <td class="mdn-link">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video" target="_blank"><span>The Video Embed Element</span></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- CSS Cheatsheet Section -->
+    <section class="cheatsheet-content">
+      <h2>CSS Cheatsheet</h2>
+      <h3>Coming soon...</h3>
+    </section>
+  </body>
+</html>
